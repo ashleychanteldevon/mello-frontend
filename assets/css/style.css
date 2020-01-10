@@ -19,7 +19,7 @@ body {
 }
 
 .ui {
-  background-color: #0079bf;
+  background-color: blue;
   color: #eee;
 }
 
@@ -59,22 +59,23 @@ nav button:focus {
   max-width: 75%;
 }
 
-header {
+header{
   font-size: 1.1em;
   height: 40px;
   padding: 10px;
 }
 
 .container {
-  display: flex;
+  display:flex;
   overflow-x: auto;
-  height: calc(100% - 80px);
+  height: clacl(100% - 80px);
 }
 
 .container > * {
   flex: 0 0 auto;
   margin-left: 10px;
 }
+
 
 .list {
   width: 300px;
